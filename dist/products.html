@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap - Prebuilt Layout</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap" rel="stylesheet">
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="loader">
+	  <div class="spinner-border" role="status"></div>
+	</div>
+	
+	<header id="header" class="header"><!-- header -->
+	  <button type="button" class="header-bars" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas"><img src="img/icon/bars.svg" alt=""></button>
+	  <a href="index.html" class="header-logo"><img src="img/logo.svg" alt=""></a>
+	  <div class="header-menu">
+	    <ul>
+	      <li><a href="#">About</a></li>
+	      <li class="active"><a href="products.html">Products</a></li>
+	      <li><a href="#">Projects</a></li>
+	      <li><a href="#">Sustainability</a></li>
+	      <li><a href="#">News</a></li>
+	      <li><a href="#">Contacts</a></li>
+	    </ul>
+	  </div>
+	  <button class="header-search"><img src="img/icon/search.svg" alt=""></button>
+	  <div class="header-lang">
+	    <a href="#">RU</a>
+	    <a href="#" class="active">EN</a>
+	  </div>
+	</header><!-- /header -->
+
+  <section class="sections section-products"><!-- section -->
+		<div class="container">
+      <div class="row">
+        <div class="col-12 d-none d-xl-block">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="col-12">
+          <ul class="nav nav-products" id="products-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="tab-1" data-bs-toggle="tab" data-bs-target="#tab-pane-1" type="button" role="tab" aria-controls="tab-pane-1" aria-selected="true">Transformation Systems</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab-2" data-bs-toggle="tab" data-bs-target="#tab-pane-2" type="button" role="tab" aria-controls="tab-pane-2" aria-selected="false">Partitions And Doors</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="products-tab-content">
+            <div class="tab-pane fade show active" id="tab-pane-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+              <h2 class="text-center d-none d-xl-block">Transformation Systems</h2>
+              <div class="list-products">
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/102.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Venue Transformation Systems</a></div>
+                  <div class="list-products-item-description">
+                    <p>Rotation system</p>
+                    <p>Translation system</p>
+                    <p>Wagon system</p>
+                    <p>Under stage systems</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/202.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Retractable Tribune Systems</a></div>
+                  <div class="list-products-item-description">
+                    <p>Straight tribunes</p>
+                    <p>Constant curved tribunes</p>
+                    <p>Concentric curved tribunes</p>
+                    <p>Pop up seating</p>
+                    <p>Seat models</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/302.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Automatic Vertical Retractable Walls</a></div>
+                  <div class="list-products-item-description">
+                    <p>Zenith premium</p>
+                    <p>Zenith</p>
+                    <p>Classic</p>
+                    <p>Mirage</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/402.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Mobile Walls</a></div>
+                  <div class="list-products-item-description">
+                    <p>Sonico</p>
+                    <p>Visio</p>
+                    <p>Visio 100</p>
+                    <p>Lumio</p>
+                    <p>Flexio</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/502.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Movable Pool Floor Systems</a></div>
+                  <div class="list-products-item-description">
+                    <p>Residential pools</p>
+                    <p>Commercial pools</p>
+                  </div>
+                </div><!--list-products-item-->
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-pane-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0">
+              <h2 class="text-center d-none d-xl-block">Partitions and Doors</h2>
+              <div class="list-products">
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="office_partitions.html"><img src="img/photo/601.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="office_partitions.html">Office Partitions</a></div>
+                  <div class="list-products-item-description">
+                    <p>Express 2</p>
+                    <p>Glassline Single </p>
+                    <p>Glassline Double </p>
+                    <p>Uni 1 Single</p>
+                    <p>Uni 2 Double</p>
+                    <p>Fineline</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/701.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Glass Doors</a></div>
+                  <div class="list-products-item-description">
+                    <p>Full glazed doors in frame</p>
+                    <p>Full glazed doors without frame</p>
+                    <p>Full glazed sliding doors</p>
+                    <p>Fineline 40</p>
+                    <p>Fineline 58</p>
+                    <p>Fineline 82</p>
+                    <p>Uni door 1</p>
+                    <p>Uni door 2</p>
+                    <p>Fire resistant glass doors</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/801.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Solid Doors</a></div>
+                  <div class="list-products-item-description">
+                    <p>Solid doors in Partitions</p>
+                    <p>Solid doors in structural openings</p>
+                    <p>Fire resistant solid doors</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="#"><img src="img/photo/901.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="#">Office Furniture</a></div>
+                  <div class="list-products-item-description">
+                    <p>Welcome area</p>
+                    <p>Working area</p>
+                    <p>Meeting area</p>
+                    <p>Eating area</p>
+                    <p>Storage</p>
+                  </div>
+                </div><!--list-products-item-->
+                <div class="list-products-item">
+                  <div class="list-products-item-image"><a href="miscellaneous.html"><img src="img/photo/1001.jpg" alt=""></a></div>
+                  <div class="list-products-item-title"><a href="miscellaneous.html">Miscellaneous</a></div>
+                  <div class="list-products-item-description">
+                    <p>Wall and column cladding</p>
+                    <p>Smart Glass</p>
+                    <p>Shop facade</p>
+                    <p>Staircase and ballustrades</p>
+                    <p>Decorative ceilings</p>
+                  </div>
+                </div><!--list-products-item-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</section><!-- section -->
+
+	<section class="sections section-footer-contacts"><!-- section -->
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-12"><div class="logo"><img src="img/logo.svg" alt=""></div></div>
+	      <div class="col-12 col-xl-6 col-xxl-4 offset-xxl-2">
+	        <div class="list-footer-contacts">
+	          <div class="list-footer-contacts-item">
+	            <div class="list-footer-contacts-item-icon"><img src="img/icon/map-marker.svg" alt=""></div>
+	            <div class="list-footer-contacts-item-title">Stroymoda – Moscow, 127473 Krasnoproletarskaya Street 16/1</div>
+	          </div><!--list-footer-contacts-item-->
+	          <div class="list-footer-contacts-item">
+	            <div class="list-footer-contacts-item-icon"><img src="img/icon/envelope.svg" alt=""></div>
+	            <div class="list-footer-contacts-item-title"><a href="mailto:moscow@stroymoda.ru">moscow@stroymoda.ru</a></div>
+	          </div><!--list-footer-contacts-item-->
+	          <div class="list-footer-contacts-item">
+	            <div class="list-footer-contacts-item-icon"><img src="img/icon/phone.svg" alt=""></div>
+	            <div class="list-footer-contacts-item-title"><a href="tel:+74952465741">+7 (495) 246-57-41</a></div>
+	          </div><!--list-footer-contacts-item-->
+	        </div>
+	      </div>
+	      <div class="col-12 col-xl-6 col-xxl-4">
+	        <div class="list-footer-contacts">
+	          <div class="list-footer-contacts-item">
+	            <div class="list-footer-contacts-item-icon"><img src="img/icon/map-marker.svg" alt=""></div>
+	            <div class="list-footer-contacts-item-title">Stroymoda – Saint-Petersburg, 199406 Nalichnaya street, 22</div>
+	          </div><!--list-footer-contacts-item-->
+	          <div class="list-footer-contacts-item">
+	            <div class="list-footer-contacts-item-icon"><img src="img/icon/envelope.svg" alt=""></div>
+	            <div class="list-footer-contacts-item-title"><a href="mailto:office@stroymoda.ru">office@stroymoda.ru</a></div>
+	          </div><!--list-footer-contacts-item-->
+	          <div class="list-footer-contacts-item">
+	            <div class="list-footer-contacts-item-icon"><img src="img/icon/phone.svg" alt=""></div>
+	            <div class="list-footer-contacts-item-title"><a href="tel:+78124388003">+7 (812) 438-80-03</a></div>
+	          </div><!--list-footer-contacts-item-->
+	        </div>
+	      </div>
+	    </div>
+	    <div class="social">
+	      <a href="#"><i class="fab fa-instagram"></i></a>
+	      <a href="#"><i class="fab fa-facebook-f"></i></a>
+	      <a href="#"><i class="fab fa-youtube"></i></a>
+	    </div>
+	  </div>
+	</section><!-- section -->
+	
+	<footer class="footer"><!-- footer -->
+	  <div class="container">
+	    <div class="row align-items-center">
+	      <div class="col-7 col-xl-4 col-xxl-3 offset-xxl-2">
+	        © 2020 Сonstruction and production holding Stroymoda 
+	      </div>
+	      <div class="d-none d-xl-block col-xl-4 col-xxl-2">
+	        <div class="social">
+	          <a href="#"><i class="fab fa-instagram"></i></a>
+	          <a href="#"><i class="fab fa-facebook-f"></i></a>
+	          <a href="#"><i class="fab fa-youtube"></i></a>
+	        </div>
+	      </div>
+	      <div class="col-5 col-xl-4 col-xxl-3">
+	        <a href="#" class="footer-logo"><img src="img/footer-logo.png" alt=""></a>
+	      </div>
+	    </div>
+	  </div>
+	</footer><!-- /footer -->
+	
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+	  <div class="offcanvas-header">
+	    <a href="#"><img src="img/logo.svg" alt=""></a>
+	    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	  </div>
+	  <div class="offcanvas-body">
+	    <div class="offcanvas-menu">
+	      <ul>
+	        <li><a href="#">About</a></li>
+	        <li class="active"><a href="#">Products</a></li>
+	        <li><a href="#">Projects</a></li>
+	        <li><a href="#">Sustainability</a></li>
+	        <li><a href="#">News</a></li>
+	        <li><a href="#">Contacts</a></li>
+	      </ul>
+	    </div>
+	    <div class="social">
+	      <a href="#"><i class="fab fa-instagram"></i></a>
+	      <a href="#"><i class="fab fa-facebook-f"></i></a>
+	      <a href="#"><i class="fab fa-youtube"></i></a>
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="modal fade" id="modal-callback" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modal-callback-label" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="modal-callback-label">Новое сообщение</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+	      </div>
+	      <div class="modal-body">
+	        <form action="{4 | url}" method="POST">
+	          <div class="form-floating mb-3">
+	            <input type="text" class="form-control" id="modal-fullname" name="fullname" placeholder="Ваше имя:" autocomplete="off" required>
+	            <label for="modal-fullname">Ваше имя:</label>
+	          </div>
+	          <div class="form-floating mb-3">
+	            <input type="tel" class="form-control" id="modal-phone" name="phone" placeholder="Ваш телефон:" autocomplete="off" required>
+	            <label for="modal-phone">Ваш телефон:</label>
+	          </div>
+	          <div class="form-floating mb-3">
+	            <textarea class="form-control" style="height:110px" id="modal-msg" name="msg" placeholder="Сообщение:"></textarea>
+	            <label for="modal-msg">Сообщение:</label>
+	          </div>
+	          <input type="submit" name="btn-callback" value="Отправить сообщение" lass="btn btn-block w-100 btn-secondary">
+	          <div class="form-check mt-3">
+	            <input type="checkbox" id="modal-agree" name="agree" value="agree" class="form-check-input" checked required>
+	            <label for="modal-agree" class="form-check-label">
+	              Отправляя форму, Вы даете согласие на использование и обработку персональных данных.
+	            </label>
+	          </div>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="modal fade" id="modal-search" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modal-menu-label" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="modal-menu-label">Поиск</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+	      </div>
+	      <div class="modal-body">
+	        <form action="{12 | url}" method="GET">
+	          <div class="input-group mb-3">
+	            <input type="text" name="search" value="{$.get.search}" class="form-control" placeholder="Ключевые слова" aria-label="Recipient's username" aria-describedby="button-addon2">
+	            <button class="btn btn-primary" type="ыгиьше" id="button-addon2"><i class="fas fa-search"></i></button>
+	          </div>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="modal fade" id="modal-menu" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modal-menu-label" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="modal-menu-label">Меню</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+	      </div>
+	      <div class="modal-body">
+	        <ul>
+	          <li><a href="#">Главная</a></li>
+	          <li><a href="#">Главная</a></li>
+	          <li><a href="#">Главная</a></li>
+	          <li><a href="#">Главная</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/fontawesome.min.js"></script>
+	<script src="js/inputmask.min.js"></script>
+	<script src="js/main.min.js"></script>
+</body>
+</html>
