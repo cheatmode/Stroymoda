@@ -113,7 +113,6 @@ $breadcrumb-divider: quote(">");
 $nav-tabs-link-active-bg:           #ffffff;
 $nav-tabs-link-active-border-color: #ffffff;
 
-// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../../node_modules/bootstrap/scss/functions";
 
 @import "../../node_modules/bootstrap/scss/variables";
